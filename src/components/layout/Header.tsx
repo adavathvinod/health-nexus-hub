@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X, Clock, MapPin } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -65,9 +66,11 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">V</span>
-              </div>
+              <img 
+                src={logo} 
+                alt="Vanasthali Hospital Logo" 
+                className="h-14 w-auto object-contain"
+              />
               <div>
                 <h1 className="font-serif text-xl font-bold text-primary">
                   Vanasthali
