@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Youtube } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -10,9 +11,11 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                <span className="font-bold text-xl">V</span>
-              </div>
+              <img 
+                src={logo} 
+                alt="Vanasthali Hospital Logo" 
+                className="h-12 w-auto object-contain bg-white rounded-lg p-1"
+              />
               <div>
                 <h3 className="font-serif text-xl font-bold">Vanasthali</h3>
                 <p className="text-sm text-white/80">Hospital</p>
