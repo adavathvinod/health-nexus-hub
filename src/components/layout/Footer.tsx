@@ -139,7 +139,7 @@ const Footer = () => {
       {/* Google Maps */}
       <div className="border-t border-white/10">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.4547680339746!2d78.56!3d17.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVanasthalipuram%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1234567890"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.66984632241!2d78.56950457493336!3d17.331471583546247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1446faa7a2d%3A0xfe4fee8fc38f74f6!2sVANASTHALI%20HOSPITAL!5e0!3m2!1sen!2sin!4v1768280063781!5m2!1sen!2sin"
           width="100%"
           height="200"
           style={{ border: 0 }}
