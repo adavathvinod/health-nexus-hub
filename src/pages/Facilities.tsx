@@ -20,6 +20,7 @@ import {
 import hospitalExterior from "@/assets/hospital-exterior.png";
 import reception from "@/assets/reception.png";
 import surgeryTeam from "@/assets/surgery-team.png";
+import Chatbot from "@/components/Chatbot";
 
 const facilities = [
   {
@@ -272,6 +273,7 @@ const Facilities = () => {
         </main>
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </div>
     </>
   );
