@@ -1,0 +1,4 @@
+project_id = "bhfglswhszztxrckbtab"
+
+[functions.hospital-chat]
+verify_jwt = false
