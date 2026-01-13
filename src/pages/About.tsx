@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet-async";
 import staffAward from "@/assets/staff-award.png";
 import reception from "@/assets/reception.png";
 import medicalTeam from "@/assets/medical-team.png";
+import Chatbot from "@/components/Chatbot";
 
 const values = [
   {
@@ -266,6 +267,7 @@ const About = () => {
         </main>
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </div>
     </>
   );

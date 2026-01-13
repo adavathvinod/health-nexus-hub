@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import maternityImage from "@/assets/maternity-care.png";
 import surgeryImage from "@/assets/surgery-team.png";
+import Chatbot from "@/components/Chatbot";
 
 const specialties = [
   {
@@ -305,6 +306,7 @@ const Specialties = () => {
         </main>
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </div>
     </>
   );

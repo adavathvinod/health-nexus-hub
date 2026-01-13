@@ -10,6 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Helmet } from "react-helmet-async";
 import { Phone, Mail, MapPin, Clock, Send, Calendar, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
+import Chatbot from "@/components/Chatbot";
 
 const specialties = [
   "Gynaecology & Obstetrics",
@@ -374,6 +375,7 @@ const Contact = () => {
         </main>
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </div>
     </>
   );
