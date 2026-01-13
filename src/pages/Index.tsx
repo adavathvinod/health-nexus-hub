@@ -5,6 +5,7 @@ import HeroSlider from "@/components/home/HeroSlider";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import TrustSignals from "@/components/home/TrustSignals";
 import EmergencyCTA from "@/components/home/EmergencyCTA";
+import Chatbot from "@/components/Chatbot";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
@@ -27,6 +28,7 @@ const Index = () => {
         </main>
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </div>
     </>
   );
